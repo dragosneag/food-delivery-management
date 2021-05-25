@@ -1,0 +1,5 @@
+Ion Popescu 744678431 Str.Decebal, nr.55, Cluj-Napoca
+Order{orderID=6, clientID=2, orderDate=Tue May 25 03:10:50 EEST 2021}
+MenuItem{title='Caramel-Swirl Hot Chocolate ', rating=4.375, calories=483, proteins=6, fats=29, sodium=108, price=79}
+MenuItem{title='Cardamom and Lemon Rice Pudding ', rating=4.375, calories=821, proteins=16, fats=23, sodium=124, price=64}
+Total: 143

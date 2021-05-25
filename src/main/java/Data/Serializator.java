@@ -9,7 +9,7 @@ import java.util.List;
 
 /**
  * Serializator class
- * Generic class responsible with managing the “database”. It transforms the objects into text and stores it into a text file.
+ * Generic class responsible with managing the "database". It transforms the objects into text and stores it into a text file.
  * That file is later accessible again, when the deserialization takes place, the text being converted back into objects.
  * */
 public class Serializator<T> {
@@ -19,7 +19,7 @@ public class Serializator<T> {
 
     public Serializator(String className) {
         this.className = className;
-        file = "D:\\Documente\\Facultate\\An 2\\Semestrul 2\\FPT\\Laboratory\\Assignment 4\\" + className + ".txt";
+        file = "D:\\Documente\\Facultate\\An 2\\Semestrul 2\\FPT\\Laboratory\\PT2021_30421_Neag_Dragos_Assignment_4\\" + className + ".txt";
     }
 
     /**

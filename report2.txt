@@ -1,0 +1,4 @@
+MenuItem{title='"Apple Celery,  and Smoked Ham Stuffing "', rating=3.75, calories=488, proteins=22, fats=16, sodium=1098, price=0}
+MenuItem{title='"Beet Cucumber,  and Sweet Onion Salad with Dijon-Honey Dressing "', rating=4.375, calories=163, proteins=1, fats=12, sodium=56, price=0}
+MenuItem{title='"Artichoke Heart Fennel,  and Parmesan Salad "', rating=4.375, calories=356, proteins=18, fats=21, sodium=637, price=0}
+MenuItem{title='"Arugula Fennel and Orange Salad "', rating=3.125, calories=120, proteins=2, fats=7, sodium=34, price=0}

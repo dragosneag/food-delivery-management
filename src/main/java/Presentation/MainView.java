@@ -967,7 +967,6 @@ public class MainView extends JFrame{
             this.setVisible(true);
         });
 
-        //Map<Order, Collection<MenuItem>> orderCollectionMap = new HashMap<Order, Collection<MenuItem>>();
         final Order[] order = {new Order(0, 0, null, null)};
         final Collection<MenuItem>[] menuItems = new Collection[]{new ArrayList<MenuItem>()};
 

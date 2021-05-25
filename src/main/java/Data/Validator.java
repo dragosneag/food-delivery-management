@@ -22,10 +22,6 @@ public class Validator {
      */
     public void validateProduct(BaseProduct product) {
 
-        /*Pattern pattern = Pattern.compile(namePattern);
-        if (!pattern.matcher(product.getTitle()).matches()) {
-            throw new IllegalArgumentException("Product title is not a valid title!");
-        }*/
         Pattern pattern = Pattern.compile(floatPattern);
         if (!pattern.matcher(String.valueOf(product.computeRating())).matches()) {
             throw new IllegalArgumentException("Rating is not a valid rating!");

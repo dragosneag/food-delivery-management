@@ -1,0 +1,4 @@
+MenuItem{title='"""La Brea Tar Pit"" Chicken Wings "', rating=3.75, calories=410, proteins=34, fats=24, sodium=1554, price=44} ordered 1 times
+MenuItem{title='Onion and Barley Soup with Swiss Cheese Flan ', rating=4.375, calories=633, proteins=21, fats=49, sodium=398, price=5} ordered 1 times
+MenuItem{title='"All-Crustacean Canapés Garnished with Deep-Fried Capers "', rating=5.0, calories=183, proteins=12, fats=14, sodium=550, price=90} ordered 1 times
+MenuItem{title='Oatmeal Coconut Squares with Chocolate Chips ', rating=3.75, calories=134, proteins=2, fats=7, sodium=61, price=88} ordered 1 times

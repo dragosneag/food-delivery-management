@@ -35,15 +35,12 @@ public class DeliveryService extends Observable implements IDeliveryServiceProce
     Observable observable;
 
     public DeliveryService() {
-        //menuItemList = importProducts1("D:\\Documente\\Facultate\\An 2\\Semestrul 2\\FPT\\Laboratory\\Assignment 4\\epi_r.csv");
         productSerializator = new Serializator("products");
-        //productSerializator.serialize(menuItemList);
         menuItemList = importProducts();
         clientSerializator = new Serializator("clients");
         clients = clientSerializator.deserialize();
         orderSerializator = new Serializator("orders");
         orders = orderSerializator.deserialize();
-        //displayOrders();
 
         orderCollectionMap = new HashMap<Order, Collection<MenuItem>>();
 
@@ -51,76 +48,6 @@ public class DeliveryService extends Observable implements IDeliveryServiceProce
         validator = new Validator();
         observable = new Observable();
     }
-
-    /*public HashSet<MenuItem> importProducts1(String CSVName) {
-        HashSet<MenuItem> products = new HashSet<MenuItem>();
-        Path pathToFile = Paths.get(CSVName);
-        try (BufferedReader br = new BufferedReader(new FileReader(CSVName))) {
-            String line = br.readLine();
-            while (line != null) {
-                String[] attributes = line.split(",");
-                BaseProduct product = createProduct(attributes);
-                products.add(product);
-                line = br.readLine();
-            }
-            br.close();
-            return products;
-        } catch (Exception e) {
-            e.printStackTrace();
-        }
-        return null;
-    }
-
-    private static BaseProduct createProduct(String[] attributes) {
-        int i = 1;
-        Random random = new Random();
-        String title = attributes[0];
-        float rating;
-        int calories, proteins, fats, sodium, price;
-        String comma = "";
-        while(isWord(attributes[i])) {
-            title = title + comma + attributes[i];
-            comma = ", ";
-            i++;
-        }
-        if(!attributes[i].isEmpty()) {
-            rating = Float.parseFloat(attributes[i]);
-        } else {
-            rating = 0;
-        }
-        i++;
-        calories = instantiateField(attributes[i]);
-        i++;
-        proteins = instantiateField(attributes[i]);
-        i++;
-        fats = instantiateField(attributes[i]);
-        i++;
-        sodium = instantiateField(attributes[i]);
-        i++;
-        price = random.nextInt(100 - 5) + 5;
-        return new BaseProduct(title, rating, calories, proteins, fats, sodium, price);
-    }
-
-    private static int instantiateField(String attribute) {
-
-        int field;
-        if(!attribute.isEmpty()) {
-            field = (int) Float.parseFloat(attribute);
-        } else {
-            field = 0;
-        }
-        return field;
-    }
-
-    private static boolean isWord(String string) {
-        char[] chars = string.toCharArray();
-        for (char c : chars) {
-            if (Character.isDigit(c)) {
-                return false;
-            }
-        }
-        return true;
-    }*/
 
     public HashSet<MenuItem> getMenuItemList() {
         return menuItemList;
@@ -203,29 +130,6 @@ public class DeliveryService extends Observable implements IDeliveryServiceProce
         }
     }
 
-    public void displayProducts() {
-
-        int count = 0;
-        for (MenuItem menuItem : menuItemList) {
-            System.out.println(menuItem.toString());
-            count++;
-        }
-        System.out.println(count);
-    }
-
-    public void displayOrders() {
-
-        int count = 0;
-        for (Order order : orders) {
-            System.out.println(order.toString());
-            for (MenuItem menuItem : order.getMenuItemList()) {
-                System.out.println(menuItem.toString());
-            }
-            count++;
-        }
-        System.out.println(count);
-    }
-
     public boolean addClient(Client client) {
         assert wellFormed();
         assert client != null;
@@ -263,7 +167,7 @@ public class DeliveryService extends Observable implements IDeliveryServiceProce
 
     public void generateReport(String number, List<Object> objectList) {
         assert wellFormed();
-        String file = "D:\\Documente\\Facultate\\An 2\\Semestrul 2\\FPT\\Laboratory\\Assignment 4\\" + "report" + number + ".txt";
+        String file = "D:\\Documente\\Facultate\\An 2\\Semestrul 2\\FPT\\Laboratory\\PT2021_30421_Neag_Dragos_Assignment_4\\" + "report" + number + ".txt";
 
         try {
             java.io.FileWriter fileWriter1;
@@ -289,7 +193,7 @@ public class DeliveryService extends Observable implements IDeliveryServiceProce
 
     public void generateMapReport(String number, Integer[] timesOrdered, List<Object> objectList) {
         assert wellFormed();
-        String file = "D:\\Documente\\Facultate\\An 2\\Semestrul 2\\FPT\\Laboratory\\Assignment 4\\" + "report" + number + ".txt";
+        String file = "D:\\Documente\\Facultate\\An 2\\Semestrul 2\\FPT\\Laboratory\\PT2021_30421_Neag_Dragos_Assignment_4\\" + "report" + number + ".txt";
 
         try {
             java.io.FileWriter fileWriter1;
@@ -317,7 +221,7 @@ public class DeliveryService extends Observable implements IDeliveryServiceProce
 
     public void generateBill(Order order) {
         assert wellFormed();
-        String file = "D:\\Documente\\Facultate\\An 2\\Semestrul 2\\FPT\\Laboratory\\Assignment 4\\bill.txt";
+        String file = "D:\\Documente\\Facultate\\An 2\\Semestrul 2\\FPT\\Laboratory\\PT2021_30421_Neag_Dragos_Assignment_4\\bill.txt";
         try {
             java.io.FileWriter fileWriter1;
             fileWriter1 = new java.io.FileWriter(file);
