@@ -1,4 +1,18 @@
-MenuItem{title='"""La Brea Tar Pit"" Chicken Wings "', rating=3.75, calories=410, proteins=34, fats=24, sodium=1554, price=44} ordered 1 times
-MenuItem{title='Onion and Barley Soup with Swiss Cheese Flan ', rating=4.375, calories=633, proteins=21, fats=49, sodium=398, price=5} ordered 1 times
-MenuItem{title='"All-Crustacean Canapés Garnished with Deep-Fried Capers "', rating=5.0, calories=183, proteins=12, fats=14, sodium=550, price=90} ordered 1 times
-MenuItem{title='Oatmeal Coconut Squares with Chocolate Chips ', rating=3.75, calories=134, proteins=2, fats=7, sodium=61, price=88} ordered 1 times
+MenuItem{title='Cardamom and Lemon Rice Pudding ', rating=4.375, calories=821, proteins=16, fats=23, sodium=124, price=64} ordered 1 times
+MenuItem{title='"Artichoke Potato,  and Portobello Mushroom Casserole "', rating=3.125, calories=296, proteins=13, fats=13, sodium=299, price=51} ordered 1 times
+MenuItem{title='"Honey Almond,  and Date Ice-Cream Sauce "', rating=3.75, calories=502, proteins=5, fats=23, sodium=205, price=29} ordered 1 times
+MenuItem{title='Pepperoni and Asiago Pinwheels ', rating=4.375, calories=13, proteins=1, fats=1, sodium=38, price=38} ordered 1 times
+MenuItem{title='Pumpkin-Seed-Crusted Trout ', rating=3.75, calories=623, proteins=34, fats=47, sodium=97, price=58} ordered 1 times
+MenuItem{title='Duck Fat-Potato Galette with Caraway and Sweet Onions ', rating=4.375, calories=229, proteins=4, fats=11, sodium=16, price=20} ordered 1 times
+MenuItem{title='"Black Bean Sausage,  and Sweet Potato Soup "', rating=3.75, calories=486, proteins=30, fats=8, sodium=438, price=75} ordered 1 times
+MenuItem{title='"Fresh Fruit Ice Trio: Lime Watermelon & Pineapple "', rating=4.375, calories=338, proteins=2, fats=1, sodium=33, price=83} ordered 1 times
+MenuItem{title='Five-Spice Roasted Guinea Hens ', rating=3.75, calories=1061, proteins=137, fats=45, sodium=846, price=22} ordered 1 times
+MenuItem{title='"Curried Rice with Cauliflower Bell Pepper,  and Green Onions "', rating=3.125, calories=414, proteins=8, fats=12, sodium=495, price=40} ordered 1 times
+MenuItem{title='Peppers with Almond-Garlic Bread Crumbs ', rating=5.0, calories=512, proteins=14, fats=26, sodium=895, price=51} ordered 1 times
+MenuItem{title='"Apple Green Onion,  and Jalapeño Salsa "', rating=4.375, calories=103, proteins=1, fats=0, sodium=4, price=96} ordered 1 times
+MenuItem{title='"Chocolate-Cherry Pistachio,  and Raspberry Ice Cream Cake "', rating=5.0, calories=587, proteins=7, fats=26, sodium=172, price=80} ordered 1 times
+MenuItem{title='Caramel-Swirl Hot Chocolate ', rating=4.375, calories=483, proteins=6, fats=29, sodium=108, price=79} ordered 1 times
+MenuItem{title='Gochujang Pork Shoulder Steaks ', rating=3.75, calories=569, proteins=34, fats=33, sodium=1411, price=73} ordered 1 times
+MenuItem{title='Goose and Tasso Gumbo ', rating=5.0, calories=3656, proteins=159, fats=325, sodium=934, price=74} ordered 1 times
+MenuItem{title='"Apple Cider Onion,  and Raisin Chutney "', rating=4.375, calories=233, proteins=2, fats=1, sodium=18, price=27} ordered 1 times
+MenuItem{title='Porcini and Bacon Sauce ', rating=4.375, calories=392, proteins=13, fats=22, sodium=354, price=81} ordered 1 times

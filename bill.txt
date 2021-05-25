@@ -1,5 +1,6 @@
-Ion Popescu 744678431 Str.Decebal, nr.55, Cluj-Napoca
-Order{orderID=6, clientID=2, orderDate=Tue May 25 03:10:50 EEST 2021}
-MenuItem{title='Caramel-Swirl Hot Chocolate ', rating=4.375, calories=483, proteins=6, fats=29, sodium=108, price=79}
-MenuItem{title='Cardamom and Lemon Rice Pudding ', rating=4.375, calories=821, proteins=16, fats=23, sodium=124, price=64}
-Total: 143
+Dragos Neag 127357242 Str.Livezii, nr.40, Cluj-Napoca
+Order{orderID=11, clientID=1, orderDate=Tue May 25 09:10:23 EEST 2021}
+MenuItem{title='"Apple Green Onion,  and Jalapeño Salsa "', rating=4.375, calories=103, proteins=1, fats=0, sodium=4, price=96}
+MenuItem{title='Duck Fat-Potato Galette with Caraway and Sweet Onions ', rating=4.375, calories=229, proteins=4, fats=11, sodium=16, price=20}
+MenuItem{title='Peppers with Almond-Garlic Bread Crumbs ', rating=5.0, calories=512, proteins=14, fats=26, sodium=895, price=51}
+Total: 167

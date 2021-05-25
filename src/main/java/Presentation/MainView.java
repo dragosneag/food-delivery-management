@@ -505,7 +505,14 @@ public class MainView extends JFrame{
             });
 
             createButton.addActionListener(e1 -> {
-                CompositeProduct compositeProduct = new CompositeProduct(productNameField.getText(), menuItems);
+                List<MenuItem> newList = new ArrayList<MenuItem>();
+                for (MenuItem element : menuItems) {
+
+                    if (!newList.contains(element)) {
+                        newList.add(element);
+                    }
+                }
+                CompositeProduct compositeProduct = new CompositeProduct(productNameField.getText(), newList);
                 deliveryService.addProduct(compositeProduct);
 
                 JPanel panel2 = new JPanel();
